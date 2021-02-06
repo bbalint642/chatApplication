@@ -40,12 +40,13 @@ const LoginForm = () => {
                     <div align="center">
                         <button type="submit" className="button">
                             <span>Start Chatting</span>
-                        </button>
-                        <h1>{error}</h1>
-                    </div>        
-                   
+                        </button>                        
+                    </div>                    
                 </form>
-            </div>
+                    <div className="error-message" align="center"> 
+                        <h2 className="error">{error}</h2>
+                    </div>
+                </div>
         </div>
     )
 }
