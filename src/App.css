@@ -288,3 +288,11 @@
   opacity: 1;
   right: 0;
 }
+
+.error-message {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 0.85em;;
+}
